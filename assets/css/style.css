@@ -1,0 +1,397 @@
+/* 
+	Theme: Dental Plus Responsive HTML Template
+	Author: Sanjida Shammi
+	Live URL: https://sanjida123shammi.github.io/
+
+	Primary Color: #f69165
+	Secondary Color: #00cce1
+
+	Font Style: Roboto
+ */
+
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* Global CSS */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+p{
+	color: #838383;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+.title{
+	margin-bottom: 3%;
+	text-align: center;
+}
+.title h2{	
+	font-weight: 600;	
+	margin-bottom: 15px;
+}
+.title p{	
+	margin-top: 18px;
+	padding: 0 23%;
+    font-weight: 500;
+}
+
+
+/* Header Section */
+header{
+	padding: 2% 0 1.3%;
+}
+.logo img{
+	margin-top: 5px;
+	width: 55%;
+}
+.icon-col{
+	display: flex;
+	justify-content: right;
+	gap: 30px;
+}
+.header-contact{
+	display: flex;
+}
+.location .header-icons{
+	text-align: center;
+}
+.header-icons{
+	width: 50px;
+	height: 50px;
+}
+.header-icons .fa-solid, .header-icons .fa-regular{
+	line-height: 50px;
+	font-size: 40px;
+	color: #f69165;
+}
+.header-icons .fa-phone-volume{
+	font-size: 35px;
+}
+.icon-info h5{
+	margin-bottom: 3px;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+.icon-info p{
+	font-size: 14px;
+    color: #a0a0a0;
+}
+
+
+/* Navbar Section */
+.navbar-section{
+	background: #00cce1;
+}
+.navbar{
+	direction: rtl;
+	padding: 0;
+}
+.appointment, .offcanvas-body{
+	direction: ltr;
+}
+.appointment{
+	background: #f69165;
+	border-top: 2px solid #f69165;
+	border-bottom: 2px solid #f69165;
+    padding: 1% 10px 1% 25px;
+	-webkit-clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
+	clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
+	transition: all .3s ease-in-out;
+}
+.appointment .navbar-brand, .appointment .fa-regular{
+	color: #fff;
+	transition: all .3s ease-in-out;
+}
+.appointment:hover{
+	background: #fff;	
+}
+.appointment:hover .navbar-brand, .appointment:hover .fa-regular{
+	color: #f69165;
+}
+.navbar-expand-lg .navbar-nav {
+    gap: 50px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover, .navbar-expand-lg .navbar-nav .nav-link:focus {
+	color: #000;
+}
+
+
+/* Hero Section */
+.hero-section{
+	position: relative;
+	background: url('../img/banner-one.png') no-repeat center;
+	background-size: cover;
+	padding: 5% 0;
+}
+.height{
+	min-height: 56vh;
+}
+.hero-content h2, .hero-content h1{
+	background: #00cce1;
+	display: inline-block;
+	padding: 5px 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+.hero-content h1{
+	background: #f69165;
+	margin: 10px 0;
+}
+.hero-content p{
+	margin: 8px 0 24px;
+    font-weight: 500;
+	color: #636363;
+}
+.hero-content ul li{
+	display: inline-block;
+	list-style: none;
+}
+.hero-content ul li a{
+	background: #f69165;
+    padding: 12px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+.hero-content ul li a.btn-booking{
+	background: #00cce1;
+}
+.hero-content ul li a:hover{
+	background: #00cce1;
+}
+.hero-content ul li a.btn-booking:hover{
+	background: #f69165;
+}
+.second-item h2, .second-item h1 {
+    background: transparent;
+    padding: 0;
+}
+.second-item h2 {
+    color: #00cce1;
+    font-size: 38px;
+}
+.second-item h1 {
+    font-size: 50px;
+    color: #f69165;
+}
+.second-item p {
+    margin-top: 0px;
+}
+.owl-carousel .owl-item img {
+	position: absolute;
+    display: block;
+    width: 45%;
+    bottom: -17.5%;
+    right: 5%;
+}
+.hero-person-img img{
+	width: 40% !important;
+	bottom: -55.5% !important;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    background: #f69165;
+    left: 0;
+}
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    background: #00cce1;
+    right: 0;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+    color: #fff;
+    padding: 0 7px !important;
+    font-size: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.owl-carousel .owl-dots {
+	position: absolute;
+	bottom: -10%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.owl-carousel button.owl-dot {
+    background: #c6ccd0;
+    color: #fff;
+    border-radius: 50%;
+    padding: 7px !important;
+    display: inline-block;
+    margin: 0 5px;
+}
+.owl-carousel button.owl-dot.active {
+    background: #f69165;
+}
+
+
+/* About Section */
+.about-section{
+	position: relative;
+	padding: 5% 0 4%;
+}
+.about-img img{
+	position: absolute;
+    width: 39%;
+    bottom: 0;
+    left: 2.5%;
+}
+.about-section p{
+	font-size: 15px;
+}
+.about-title{
+	margin-bottom: 6%;
+}
+.about-title h2{	
+	font-weight: 600;	
+	margin-bottom: 15px;
+}
+.about-title p{
+	padding-right: 40px;
+	font-weight: 500;
+}
+.about-info {
+    margin-bottom: 25px;
+}
+.about-tooth{
+	width: 40px;
+	height: 45px;
+}
+.about-info h5{
+	font-weight: 600;
+	margin: 14px 0 10px;
+}
+
+
+/* Team Section */
+.team-section{
+	background: #f9f9f9;
+	padding: 5% 0 3.5%;
+}
+.doctors{
+	position: relative;
+	background: #fff;
+	border-bottom: 4px solid #00cce1;
+	margin-bottom: 25px;
+	text-align: center;
+	transition: all .4s ease-in-out;
+}
+.doctors-img{
+	position: relative;
+	overflow: hidden;
+}
+.doctors-img::before{
+	position: absolute;
+	content: "";
+	background: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 100%;
+	transition: all .4s ease-in-out;
+}
+.doctors:hover .doctors-img::before{
+	top: 0;
+}
+.doctors:hover{	
+	border-bottom: 4px solid #f69165;
+}
+.doctors-img img{
+	width: 100%;
+}
+.doctors h5{
+	margin: 22px 0 3px;
+	font-weight: 600;
+}
+.doctors p{
+	margin-bottom: 20px;
+}
+.social-info{
+	position: absolute;
+	top: 100%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -100%);
+    transition: all 0.4s ease-in-out;
+}
+.doctors:hover .social-info{
+	opacity: 1;
+	top: 50%;
+}
+.social-info ul li{
+	display: inline-block;
+	border: 2px solid #fff;
+	list-style: none;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	transition: all .3s ease-in-out;
+}
+.social-info ul li a{
+	list-style: none;
+	line-height: 30px;
+	color: #fff;
+}
+.social-info ul li:hover{
+	background: #f69165;
+	border: 2px solid #f69165;
+}
+
+
+/* Service Section */
+.service-section{
+	padding: 5% 0 4%;
+}
+.service{
+	border: 5px solid #ebebeb;
+	margin-bottom: 25px;
+	padding: 25px 30px 10px;
+	transition: all .3s ease-in-out;
+}
+.service-tag{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 16px;
+}
+.service-img{
+	width: 35px;
+	height: 45px;
+}
+.service-tag h5{
+	font-weight: 600;
+	transition: all .3s ease-in-out;
+}
+.service p{
+	font-size: 15px;
+}
+.service .read-more{
+	color: #707070;
+	font-weight: 600;
+	transition: all .3s ease-in-out;
+}
+.service:hover{
+	border: 5px solid #f69165;
+}
+.service:hover h5, .service:hover .read-more{
+	color: #f69165;
+}
