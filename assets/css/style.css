@@ -321,6 +321,10 @@ header{
 .doctors h5{
 	margin: 22px 0 3px;
 	font-weight: 600;
+	transition: all .4s ease-in-out;
+}
+.doctors:hover h5{	
+	color: #f69165;
 }
 .doctors p{
 	margin-bottom: 20px;
