@@ -255,9 +255,6 @@ header{
     bottom: 0;
     left: 2.5%;
 }
-.about-section p{
-	font-size: 15px;
-}
 .about-title{
 	margin-bottom: 6%;
 }
@@ -279,6 +276,9 @@ header{
 .about-info h5{
 	font-weight: 600;
 	margin: 14px 0 10px;
+}
+.about-info p{
+	font-size: 15px;
 }
 
 
