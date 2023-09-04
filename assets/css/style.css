@@ -469,6 +469,7 @@ header{
 }
 .price-table:hover .price, .price-table:hover .btn-sign{
 	background: #f69165;
+	color: #fff;
 }
 .price-table:hover .price h2, .price-table:hover .price p{
 	color: #fff;
