@@ -29,8 +29,8 @@ $(document).ready(function(){
         margin:0,
         nav:true,
         autoplay:true,
-        autoplayTimeout:4000,
-        smartSpeed:750,
+        autoplayTimeout:2500,
+        smartSpeed:500,
         responsive:{
             0:{
                 items:1

@@ -55,7 +55,6 @@ header{
 }
 .logo img{
 	margin-top: 5px;
-	width: 55%;
 }
 .icon-col{
 	display: flex;
@@ -99,6 +98,9 @@ header{
 	direction: rtl;
 	padding: 0;
 }
+.navbar-brand{
+	display: none;
+}
 .appointment, .offcanvas-body{
 	direction: ltr;
 }
@@ -106,30 +108,41 @@ header{
 	background: #f69165;
 	border-top: 2px solid #f69165;
 	border-bottom: 2px solid #f69165;
-    padding: 1% 10px 1% 25px;
+    padding: 10px 25px;
 	-webkit-clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
 	clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
 	transition: all .3s ease-in-out;
 }
-.appointment .navbar-brand, .appointment .fa-regular{
+.appointment .appoint, .appointment .fa-regular{
+    font-size: 17px;
+	font-weight: 500;
 	color: #fff;
 	transition: all .3s ease-in-out;
 }
 .appointment:hover{
 	background: #fff;	
 }
-.appointment:hover .navbar-brand, .appointment:hover .fa-regular{
+.appointment:hover .appoint, .appointment:hover .fa-regular{
 	color: #f69165;
 }
 .navbar-expand-lg .navbar-nav {
-    gap: 50px;
+    gap: 5px;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 0;
+	padding: 12.5px 23px;	
+    -webkit-clip-path: polygon(16% 0%, 100% 0%, 84% 100%, 0% 100%);
+    clip-path: polygon(16% 0%, 100% 0%, 84% 100%, 0% 100%);
     color: #fff;
+    transition: all .3s ease-in-out;
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover, .navbar-expand-lg .navbar-nav .nav-link:focus {
-	color: #000;
+    background: #f69165;
+}
+.info{
+	display: none;
+}
+.desktop-hide{
+	display: none;
 }
 
 
@@ -140,7 +153,7 @@ header{
 	background-size: cover;
 }
 .height{
-	min-height: 76vh;
+	min-height: 80vh;
 }
 .hero-content h2, .hero-content h1{
 	background: #00cce1;
@@ -269,7 +282,7 @@ header{
     margin-bottom: 25px;
 }
 .about-tooth{
-	width: 40px;
+	width: 41px;
 	height: 45px;
 }
 .about-info h5{
@@ -377,7 +390,7 @@ header{
 	margin-bottom: 16px;
 }
 .service-img{
-	width: 35px;
+	width: 41px;
 	height: 45px;
 }
 .service-tag h5{
