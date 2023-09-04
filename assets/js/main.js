@@ -33,9 +33,9 @@ $(document).ready(function(){
         smartSpeed:500,
         responsive:{
             0:{
-                items:1
+                items:2
             },
-            600:{
+            560:{
                 items:3
             },
             1000:{
