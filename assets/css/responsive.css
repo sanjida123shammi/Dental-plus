@@ -87,6 +87,9 @@
 	    color: #fff;
 	}
 
+	.hero-section {
+	    padding: 20px 0;
+	}
 	.hero-carousel .owl-item img {
 	    display: none;
 	}
@@ -109,24 +112,112 @@
 	.hero-carousel .owl-dots {
 	    bottom: 6%;
 	}
+
+	.about-section {
+	    padding: 50px 0;
+	}
+	.about-img img {
+	    position: relative;
+	    display: block;
+	    margin: 25px auto 30px;
+	    width: 60%;
+	}
+	.about-tooth, .about-info h5 {
+	    display: inline-block;
+	}
+	.about-info p {
+	    margin-top: 12px;
+	}
+
+	.team-section, .service-section, .pricing-section {
+	    padding: 60px 0;
+	}
+	.title p {
+	    padding: 0;
+	}
+
+	.service {
+	    padding: 25px 10px 10px;
+	}
+	.service-tag {
+    	gap: 5px;
+	}
+	.service-img {
+	    width: 38px;
+	}
+
+	.price-table {
+	    margin: 10px 0 25px;
+	}
+
+	.client-section, footer {
+	    padding: 70px 0 70px;
+	}
+	.brand-carousel .owl-nav button.owl-prev, .brand-carousel .owl-nav button.owl-next {
+    	display: none;
+	}
+	.brand-carousel .owl-dots {
+		position: absolute;
+		bottom: -15%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.brand-carousel button.owl-dot {
+	    background: #c6ccd0;
+	    color: #fff;
+	    border-radius: 50%;
+	    padding: 7px !important;
+	    display: inline-block;
+	    margin: 0 8px;
+	}
+	.brand-carousel button.owl-dot.active {
+	    background: #f69165;
+	}
+
+	footer {
+	    padding: 35px 0 70px;
+	}
+	.contact-us {
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.footer-contact {
+		margin-bottom: 20px;
+		width: 50%;
+	    gap: 20px;
+	}
+	.posts {
+	    align-items: center;
+	}
+	.posts img{
+		width: 90%;
+	}
+	.footer-title {
+	    margin-top: 30px;
+	}
+	.third-column .footer-title {
+	    margin-bottom: 20px;
+	}
+	.bottom-footer {
+	    padding: 30px 0 18px;
+	}
 }
 
 
 /* Mobile Responsive CSS */
-@media (max-width: 575px){
+@media (max-width: 575px){}
 	
 
 
-@media (max-width: 425px) {
+@media (max-width: 425px){}
 	
 
 
-@media (max-width: 375px) {
+@media (max-width: 375px){}
 	
 
 
-@media (max-width: 350px) {
+@media (max-width: 350px){}
 	
 
-@media (max-width: 320px) {
-	
+@media (max-width: 320px){}
