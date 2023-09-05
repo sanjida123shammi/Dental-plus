@@ -1,9 +1,13 @@
-/* Tablet Responsive CSS */
-@media (max-width: 767px){
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+
+
+@media (max-width: 991px){
 	.header-section, .appointment{  display: none; }	
 	.navbar-section { background: #fff;	  padding: 15px 0; }
 	.navbar{ direction: ltr !important;	}
-	.navbar-brand{ display: inherit;	width: 38%;	}
+	.navbar-brand{ display: inherit;	width: 30%;	}
 	.navbar-toggler{ border: none; }
 	.navbar-toggler span i{	font-size: 28px;	color: #00cce1;	}
 	.navbar-toggler:focus { outline: none;    box-shadow: none;	}
@@ -24,31 +28,61 @@
 	.appointment:hover { background: #00cce1; }
 	.appointment:hover .appoint, .appointment:hover .fa-regular { color: #fff; }
 
-	.hero-section { padding: 20px 0 60px; }
-	.hero-carousel .owl-item img { display: none; }
-	.height { min-height: auto;	}
-	.hero-content{ text-align: center; }
-	.hero-content h2 { margin-top: 25px; }
-	.second-item h2 { font-size: 28px;	}
-	.second-item h1{ margin-top: 10px;	font-size: 42px; }
-	.hero-carousel .owl-nav button.owl-prev, .hero-carousel .owl-nav button.owl-next { display: none; }
-	.hero-carousel .owl-dots { bottom: -12%; }
+	.height { min-height: 400px; }
+	.hero-content h1 { font-size: 32px; }
+	.hero-content h2 { font-size: 26px; }
+	.hero-carousel .owl-item img { width: 48%; right: 0px; }
+	.second-item h1{ margin-top: 10px;	font-size: 40px; }
+	.hero-person-img img {  width: 32% !important;   right: 7% !important; }
 
 	.about-section { padding: 50px 0; }
 	.about-img img { position: relative;    display: block;    margin: 25px auto 30px;    width: 60%; }
 	.about-tooth, .about-info h5 { display: inline-block; }
 	.about-info p { margin-top: 12px; }
 
-	.team-section, .service-section, .pricing-section { padding: 60px 0; }
+	.team-section, .service-section, .pricing-section { padding: 65px 0 60px; }
 	.title p { padding: 0; }
+	.social-info ul li { width: 28px;    height: 28px; }
+	.social-info ul li a { line-height: 28px;	font-size: 14px; }
+	.doctors h5 { margin: 15px 0 3px;	font-size: 19px; }
+	.doctors p { margin-bottom: 15px; }
 
-	.service { padding: 25px 10px 10px;	}
+	.service { padding: 25px 22px 10px; }
 	.service-tag { gap: 5px; }
+	.price-table { margin-bottom: 20px; }
+	.price-table h3 { font-size: 24px; }
+	.price h2 { font-size: 39px; }
+	.client-section { padding: 70px 0 35px;	}
+
+	footer { padding: 60px 0 70px;}
+	.footer-contact{ gap: 25px;    margin-bottom: 10px; }
+	.footer-title { width: 56%; }
+	.third-column .footer-title { margin: 20px 0 15px; }
+	.bottom-footer { padding: 30px 0 18px; }
+}
+
+@media (max-width: 850px){
+	.hero-person-img img {  width: 36% !important;   right: 5% !important; }
+}
+
+/* Tablet Responsive CSS */
+@media (max-width: 767px){
+	.navbar-brand{ width: 38%;	}
+
+	.hero-section { padding: 20px 0 60px; }
+	.hero-carousel .owl-item img { display: none; }
+	.height { min-height: auto;	}
+	.hero-content{ text-align: center; }
+	.hero-content h2 { margin-top: 25px; }
+	.hero-carousel .owl-nav button.owl-prev, .hero-carousel .owl-nav button.owl-next { display: none; }
+	.hero-carousel .owl-dots { bottom: -12%; }
+	
+	.service { padding: 25px 10px 10px;	}
 	.service-img { width: 38px;	}
 
 	.price-table { margin: 10px 0 25px;	}
 
-	.client-section, footer { padding: 70px 0 70px;	}
+	.client-section, footer { padding: 70px 0;	}
 	.brand-carousel .owl-nav button.owl-prev, .brand-carousel .owl-nav button.owl-next { display: none;	}
 	.brand-carousel .owl-dots {	position: absolute;		bottom: -15%;		left: 50%;		transform: translateX(-50%); }
 	.brand-carousel button.owl-dot { background: #c6ccd0; color: #fff;  border-radius: 50%;  padding: 7px !important;  display: inline-block;	margin: 0 8px; }
@@ -61,7 +95,6 @@
 	.posts img{	width: 90%;	}
 	.footer-title { margin-top: 30px; }
 	.third-column .footer-title { margin-bottom: 20px; }
-	.bottom-footer { padding: 30px 0 18px; }
 }
 
 /* Mobile Responsive CSS */
