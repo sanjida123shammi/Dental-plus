@@ -1,8 +1,31 @@
-@media (min-width: 992px) and (max-width: 1200px){
 
+@media (min-width: 992px) and (max-width: 1199px){
+	header { padding: 25px 0 6px; }
+	.logo img { margin-top: 0px;	width: 70%;}
+	.icon-info h5 { font-size: 18px; }
+	.header-icons { width: 40px;    height: 40px; }
+	.header-icons .fa-solid, .header-icons .fa-regular { line-height: 40px;  font-size: 30px; }
+	.header-icons .fa-phone-volume { font-size: 26px; }
+	.navbar-expand-lg .navbar-nav .nav-link { padding: 12.5px 23px 13px; }
+
+	.height { min-height: 500px; }
+	.hero-carousel .owl-item img { width: 48%;    right: 0%; }
+	.hero-person-img img { width: 33% !important;    right: 10% !important; }
+	.hero-content h2, .hero-content h1 { font-size: 28px; }
+	.hero-content h1 { font-size: 36px; }
+	.second-item h1 { font-size: 45px;	margin-top: 5px;}
+
+	.first-column .footer-title{ margin-bottom: 28px;	width: 60%; }
+	.footer-title h2 { font-size: 27px; }
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+	.height { min-height: 450px; }
 }
 
 
+
+/* Responsive Up to 991px */
 @media (max-width: 991px){
 	.header-section, .appointment{  display: none; }	
 	.navbar-section { background: #fff;	  padding: 15px 0; }
@@ -65,6 +88,7 @@
 	.hero-person-img img {  width: 36% !important;   right: 5% !important; }
 }
 
+
 /* Tablet Responsive CSS */
 @media (max-width: 767px){
 	.navbar-brand{ width: 38%;	}
@@ -79,7 +103,6 @@
 	
 	.service { padding: 25px 10px 10px;	}
 	.service-img { width: 38px;	}
-
 	.price-table { margin: 10px 0 25px;	}
 
 	.client-section, footer { padding: 70px 0;	}
@@ -97,6 +120,7 @@
 	.third-column .footer-title { margin-bottom: 20px; }
 }
 
+
 /* Mobile Responsive CSS */
 @media (max-width: 575px){
 	.second-item h1 { font-size: 40px; }
@@ -110,7 +134,7 @@
 	.client-section{ padding-bottom: 90px; }
 	.location-contact{ width: 75%; }
 }
-	
+
 @media (max-width: 475px){
 	.navbar-brand { width: 45%; }
 	.about-section { padding: 50px 0 40px; }
