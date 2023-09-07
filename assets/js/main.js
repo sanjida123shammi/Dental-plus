@@ -6,7 +6,7 @@ $(document).ready(function(){
         margin:10,
         nav:true,
         dots:true,
-        autoplay:false,
+        autoplay:true,
         autoplayTimeout:4000,
         smartSpeed:750,
         responsive:{
@@ -38,7 +38,10 @@ $(document).ready(function(){
             560:{
                 items:3
             },
-            1000:{
+            992:{
+                items:4
+            },
+            1200:{
                 items:5
             }
         }
